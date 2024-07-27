@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "zain", sans-serif;
+    
+}
+.whole{
+    min-width: 250px;
+    border-radius: 5px;
+}
+.nav{
+    border-bottom: 1px solid;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffde59;
+}
+/* */
+.image{
+    
+    display: flex;
+    /* background-color: aqua; */
+    gap: 10px;
+    padding: 8px;
+}
+img{
+    max-width: 25px;
+}
+
+#toggleButton{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    /* font-weight: bold; */
+    /* font-size: 1.1rem; */
+
+}
+.button{
+    margin-right: 10px;
+}
+
+#results{
+    padding: 5px 10px;
+}
